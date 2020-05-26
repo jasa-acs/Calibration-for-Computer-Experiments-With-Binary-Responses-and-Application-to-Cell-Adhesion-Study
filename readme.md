@@ -23,12 +23,12 @@ Both simulated and experimental data are publicly available at https://bitbucket
 ### Description 
 
 Permissions: Dataset simulated using internal code and generated from lab experiments
+
 Licensing information: -----
+
 Link to data: https://bitbucket.org/chihli/binarycalibration/
-Data provenance, including identifier or link to original data if different than above: -----
+
 File format: .txt 
-Metadata (including data dictionary): -----
-Version information: -----
 
 
 
@@ -56,6 +56,7 @@ Version information: master+ afe4b6b
 ## Instructions for Use
 
 Supporting  software  requirements:  R (>=  3.2.4):
+
 kernlab (>=0.9-25)
 lhs (>=0.15)
 sensitivity (>=1.15.2)
@@ -64,6 +65,7 @@ lattice (>=0.20-35)
 calibrateBinary (>=0.2)
 ggplot2 (>=3.0.0)
 randomForest (>=4.6-14)
+
 Set the working directory as the path of the folder we provided, then run the files “simulation_2d.R”, “simulation_5d”, and “realdata.R”.
 
 
